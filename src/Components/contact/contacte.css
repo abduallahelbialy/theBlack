@@ -1,0 +1,66 @@
+.contacte{
+    padding: 30px 0;
+}
+.box {
+    border: 1px solid #9d1d24;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    padding: 14px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.box:hover{
+    background-color: aliceblue;
+
+}
+.gbox{
+    gap: 25px;
+    align-items: center;
+}
+.img-cont{
+    display: flex;
+    justify-content: center;
+    width: 304px;
+    margin-top: 6px;
+}
+.img-cont img{
+    max-width:16%;
+    height: auto;
+}
+.groub{
+    width: 536px !important;
+    margin: auto;
+    padding: 5px;
+}
+.teaxtar textarea{
+    
+ width: 500px !important;
+    margin: auto;
+    padding: 5px;
+    height: 100px;
+    border-radius: 8px;
+    outline: none;
+}
+.teaxtar textarea::placeholder{
+font-size: 12px;
+}
+.btgroud button{
+    border: none;
+    width: 500px;
+    padding: 10px;
+    border-radius: 4px;
+    background-color: #9d1d24 !important;
+}
+@media (max-width:477px) {
+    .teaxtar textarea {
+    width: 349px !important;
+    margin: auto;
+    padding: 5px;
+    height: 100px;
+    border-radius: 8px;
+    outline: none;
+}
+.btgroud button{
+     width: 349px !important;
+}
+}

@@ -1,0 +1,37 @@
+.footer{
+    padding: 20px 0;
+    background-image: url(../assent/istockphoto-1303521061-612x612.jpg);
+    /* background-color: #242f3d; */
+    background-size: cover;
+}
+.link li{
+    font-size: 14px;
+    color: #333333 !important;
+}
+.one-footer p{
+    font-size: 13px;
+    color: #333333 !important;
+    text-wrap: balance;
+}
+.one-footer h2{
+    font-size: 18px;
+}
+.one-footer span {
+    color: #333333 !important;
+}
+/* ///upfooter // */
+.upfooter{
+    background-color:var(--footer-color);
+    padding: 20px 0;
+}
+
+.img-foo {
+    border-radius: 12%;
+    margin-bottom: 10px;
+    width: 30%;
+    /* margin: auto; */
+}
+.text-f{
+    /* color: #dbdbdb; */
+    font-size: 16px;
+}

@@ -1,0 +1,120 @@
+.top-bar{
+    padding: 7px 0;
+    background-color: var(--main-color);
+}
+.icon-top{
+    display: flex;
+  justify-content: flex-end;
+  gap: 13px;
+  align-items: center;
+}
+.icon-top li:not(:last-child){
+  border-left: 1px solid #ddd;
+  padding-left: 10px;
+}
+@media (max-width:477px) {
+  .icon-top li:not(:last-child){
+  border:none;
+  padding-left: 10px;
+}
+}
+li select{
+    background-color: transparent;
+  color: #fff;
+  border: none;
+  outline: none;
+}
+li select option{
+  background-color: #000;
+  border: none !important;
+}
+ul li{
+    color: #fff;
+    font-size: 14px;
+   
+}
+
+.iconss{
+  font-size: 18px;
+}
+/* under-top */
+.under-top{
+  background-image: url(../assent/istockphoto-1303521061-612x612.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 20vh;
+}
+.head-top{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.img-head {
+  width: 183px;
+  object-fit: cover;
+}
+.img-head img{
+  width: 100%;
+}
+.data{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 7px;
+}
+.one{
+  background-color: white;
+  border: 1px solid white;
+  padding: 5px 15px;
+  border-radius: 4px;
+}
+.btn.dropdown-toggle {
+  border: none;
+}
+.p-dropdown-items{
+  text-align: center;
+    background-color: hsl(0deg 0% 0% / 50%);
+    padding: 5px;
+    border-radius: 4px;
+    width: 100px;
+    height: 57px;
+    margin-top: 4px;
+    border: none;
+}
+.dropdown .btn.dropdown-toggle{
+  color: white !important;
+}
+.card-lang{
+  border: none;
+    color: white;
+    font-size: 12px;
+}
+
+
+/* nav bar */
+.navbar{
+/* background-color: hsl(203, 23%, 21%) !important; */
+background-color: #666666;
+}
+.search{
+      margin-top: 8px;
+    font-size: 18px;
+}
+.active{
+  border-bottom: 2px solid #ddd !important;
+  width: fit-content;
+}
+.navbar-toggler {
+  background-color: white !important;
+}
+@media (max-width:477px) {
+  .icon-top{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+}
+.tquem{
+  padding: 20px 0;
+}
