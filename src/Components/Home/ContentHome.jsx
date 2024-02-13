@@ -29,7 +29,7 @@ const ContentHome = ({ HomeData }) => {
           <div className="row">
             <div className="decription">
               <h1 className="font-medium">اسطول السيارات</h1>
-              <p className="text-black-50 text-center descar" data-aos="fade-right">
+              <p className="text-black-50 text-center descar" >
                 هذا النص هو مثال لاى نص اخرى يمكن ان يكتب فى نفس هذا المكان
               </p>
             </div>
