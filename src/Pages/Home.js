@@ -12,7 +12,7 @@ const Home = () => {
   return (
     <React.Fragment>
       <div className="header">
-        <div className="img-hero" data-aos="fade-left">
+        <div className="img-hero" >
           <img src={heroimg} alt="" className="imghero" />
         </div>
         <div className="container">
